@@ -1,0 +1,59 @@
+.parent {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .box-model-sample {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 20px solid greenyellow;
+  }
+  
+  .other-parent {
+    background-color: brown;
+    width: 220px;
+    height: 180px;
+  }
+  
+  .other-child {
+    background-color: skyblue;
+    width: 70px;
+    height: 50px;
+    padding: 4px;
+    border: 4px solid forestgreen;
+    margin: 5px 4px 3px 2px;
+  }
+  
+  .span-child {
+    background-color: palevioletred;
+    margin: 15px 30px;
+  }
+  
+  .parent-3 {
+    background-color: chartreuse;
+    height: 90px;
+    width: 200px;
+  }
+  
+  .child-3 {
+    background-color: bisque;
+    height: 45px;
+    width: 100px;
+    margin: auto;
+  }
+  
+  .display-parent {
+    width: 100%;
+    height: 60px;
+  }
+  
+  .display-child {
+    background-color: red;
+    border: 5px solid;
+    height: 20px;
+    display: inline-block;
+  }

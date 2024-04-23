@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etiquetas Semánticas</title>
+  <!-- Estilos internos en el documento HTML xx -->
+  <style type="text/css">
+    /* regla */
+    h1 {
+      color: rgb(148, 58, 208);
+      font-size: 24px;
+    }
+    p {
+      color: orangered;
+    }
+
+    h2 {
+      color: green;
+    }
+  </style>
+  <!-- Enlace a un archivo externo -->
+  <link rel="stylesheet" href="css/web-semantico.css">
+</head>
+
+<body>
+  <header>
+    <h1>Web Semántica con html</h1>
+    <!-- imgs, menú, perfil -->
+    <nav>
+      <!-- Navegación -->
+      Menú de la página
+      <ul>
+        <li>Incio</li>
+        <li>Perfil</li>
+        <li>Educación</li>
+        <li>Experiencia</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- La parte principal de nuestra página -->
+    <!-- Párrafo de Texto -->
+    <section>
+      <h2>Párrafos</h2>
+      <p>Cualquier cosa puede ir en la etiqueta 'p'.</p>
+      <p>Párrafo 1</p>
+      <p>Párrafo 2</p>
+    </section>
+    <!-- Listas ordenadas (ordered list) -->
+    <section>
+      <h2>Listas ordenadas</h2>
+      <ol>
+        <li>Me despierto</li> <!-- list item (li)-->
+        <li>Me lavo los dientes</li>
+        <li>Desayuno</li>
+      </ol>
+    </section>
+    <!-- Listas desordenadas (unordered list)-->
+    <h2>Listas desordenadas</h2>
+    <ul>
+      <li>
+        Razas Pequeñas
+        <ul>
+          <li>Bulldos Frances</li>
+          <li>Chihuahua</li>
+        </ul>
+      </li>
+      <li>
+        <h3>Grandes</h3>
+        <ol>
+          <li>Labrador</li>
+          <li>Pastor alemán</li>
+          <li>Perritos mestizos</li>
+          <li>Perritos criollos</li>
+        </ol>
+      </li>
+    </ul>
+    <ul>
+      <li>un hijo</li>
+    </ul>
+    <ul>
+      <li>un hijo también</li>
+    </ul>
+    <!-- Formulario -->
+    <h2>Formulario</h2>
+    <form>
+      <label for="nombre">Escribe tu descripción:</label>
+      <input type="are" id="nombre" name="name" />
+      <br /><br />
+      <label for="nombre">Escribe tu nombre:</label>
+      <input type="text" id="nombre" name="name" />
+      <br /> <!-- Salto de línea-->
+      <br /> <!-- Salto de línea-->
+      <label for="altura">Altura:</label>
+      <input type="number" id="altura" />
+      <br /> <!-- Salto de línea-->
+      <br /> <!-- Salto de línea-->
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" />
+      <br />
+      <button>Enviar</button>
+    </form>
+    <!-- enlaces (anchor) -->
+    <h2>Enlaces</h2>
+    <a href="https://wikipedia.org" target="_blank">Wikipedia</a>
+    <ul>
+      <li>
+        <a href="https://google.com" target="_blank">
+          Google
+        </a>
+      </li>
+      <li><a href="https://bing.com">Bing</a></li>
+      <li><a href="https://duckduckgo.com">DuckDuckGo</a></li>
+    </ul>
+    <!-- CSS inline (en línea) -->
+    <img src="images/french-bulldog.webp" alt="Bulldog café" style="height: 100px; width: 100px; border-radius: 50%;"/>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2008-07-28_Dog_at_Frolick_Field.jpg/640px-2008-07-28_Dog_at_Frolick_Fiel.jg"
+      alt="Bulldog pinto" />
+  </main>
+  <footer>
+    <section>
+      <p>Hecho por @helladyo</p>
+      <p>2024</p>
+    </section>
+    <section>
+      <p>Información de contacto</p>
+    </section>
+  </footer>
+</body>
+
+</html>

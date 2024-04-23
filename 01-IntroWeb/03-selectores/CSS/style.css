@@ -1,0 +1,79 @@
+
+.summary {
+    font-size: 50px;
+  }
+  
+  #main {
+    font-family: Helvetica;
+  }
+  
+  p #main .summary  {
+    color: green;
+  }
+  
+  p {
+    color: blue
+  }
+  
+  p {
+    color: red;
+  }
+  
+  #parent {
+    font-size: 10px;
+  }
+  
+  #parent span {
+    font-size: 5px;
+  }
+  
+  p.colorName {
+    color: skyblue;
+    font-family: Helvetica;
+  }
+  
+  p.hexagesimal {
+    color: #4CF5AE;
+    font-family: 'Courier New'
+  }
+  
+  p.rgb {
+    color: rgb(6, 97, 6);
+    font-family: Impact;
+  }
+  
+  .pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .font-weight {
+    font-weight:bold;
+    text-align: left;
+    text-decoration: blink;
+  }
+  
+  .font-style {
+    font-style:italic;
+    text-align: center;
+    text-decoration: blink;
+  }
+  
+  .font-variant {
+    font-variant:small-caps;
+    text-align: right;
+    text-decoration: underline;
+  }
+  
+  .text-transform {
+    text-transform: uppercase;
+    text-align: justify;
+    text-decoration: overline;
+  }
+  
+  .font-size {
+    font-size: 40px;
+    text-decoration: line-through
+  }
+  

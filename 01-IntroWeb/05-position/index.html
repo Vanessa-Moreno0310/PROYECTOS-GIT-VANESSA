@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Ejemplos con "position"</h1>
+  </header>
+  <main>
+    <section>
+      <h2>position: static;</h2>
+      <p>An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:</p>
+      <div class="static">
+        Div con la clase "static"
+      </div>
+    </section>
+    <section style="box-sizing: border-box; margin-bottom: 50px;">
+      <h2>position: relative;</h2>
+      <p>An element with position: relative; is positioned relative to its normal position:</p>
+      <div class="relative">
+        Div con la clase "relative"
+      </div>
+      <div class="relative">
+        Div con la clase "relative"
+      </div>
+    </section>
+    <section>
+      <h2>position: fixed;</h2>
+      <p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled:</p>
+      <div class="fixed">
+      This div element has position: fixed;
+      </div>
+    </section>
+    <section id="position-absolute">
+      <h2>position: absolute;</h2>
+      <p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+      <div class="relative">
+        <p>
+          An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+          However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+          Note: Absolute positioned elements are removed from the normal flow, and can overlap elements.
+          Here is a simple example:
+        </p>
+        <div class="absolute">
+        </div>
+      </div>
+    </section>
+    <section id="sticky-section">
+      <h2 id="sticky-header">position: sticky;</h2>
+      <p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
+      <div class="sticky">I am sticky!</div>
+      <div style="padding-bottom:2000px">
+        <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+        <p>Scroll back up to remove the stickyness.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>
